@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --target lib ./src/main.js"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "@fortawesome/fontawesome-svg-core": "^1.2.8",
+    "@fortawesome/free-solid-svg-icons": "^5.5.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.4",

@@ -5,22 +5,12 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
 ### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+On src/main.js comment and uncomment the lines that import the icons and run `npm run build` to see the difference.
 
-### Lints and fixes files
-```
-npm run lint
-```
+
+Issue: https://github.com/webpack/webpack/issues/8377
