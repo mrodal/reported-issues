@@ -5,12 +5,11 @@
 npm install
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Error reproduction
+- Run with `npm run serve`
+- On `src/components/Extended.vue` edit the console.log on the mounted function. Works well
+- Go to `src/components/Base.vue` and edit the console.log on the mounted function. The base component template gets rendered instead of the Extended one.
 
-On src/main.js comment and uncomment the lines that import the icons and run `npm run build` to see the difference.
+This happens only when importing Extended.vue on App.vue with import()
 
-
-Issue: https://github.com/webpack/webpack/issues/8377
+Issue: https://github.com/vuejs/vue/issues/9376
