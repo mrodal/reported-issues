@@ -23,6 +23,8 @@
     "babel-jest": "^23.6.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "vue-inheritance-loader": "^0.1.5",
+    "vue-inheritance-loader-jest": "^0.1.1",
     "vue-template-compiler": "^2.6.10"
   }
 }

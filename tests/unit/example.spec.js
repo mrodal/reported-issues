@@ -1,12 +1,10 @@
 import { shallowMount } from '@vue/test-utils'
-import HelloWorld from '@/components/HelloWorld.vue'
+import Extended from '@/components/Extended.vue'
 
-describe('HelloWorld.vue', () => {
+describe('Extended.vue', () => {
   it('renders props.msg when passed', () => {
-    const msg = 'new message'
-    const wrapper = shallowMount(HelloWorld, {
-      propsData: { msg }
-    })
-    expect(wrapper.text()).toMatch(msg)
+    const msg = 'Here goes the mapaa'
+    const wrapper = shallowMount(Extended)
+    expect(wrapper.text()).toContain(msg)
   })
 })
